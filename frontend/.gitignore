@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# Confidential / Personal Data
+public/images/
+public/assets/images/

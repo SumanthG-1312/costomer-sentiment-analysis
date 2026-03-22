@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.joblib
+*.pkl
+.env
+.env.*
+creds.json
+credentials.json
+*.pem
+*.key

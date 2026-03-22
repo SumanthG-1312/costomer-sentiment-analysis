@@ -1,0 +1,45 @@
+# IDE / System
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.log
+
+# Dependencies
+node_modules/
+venv/
+env/
+__pycache__/
+
+# Frontend Specific
+frontend/dist/
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# CONFIDENTIAL DATA & CREDENTIALS
+.env
+.env.*
+creds.json
+credentials.json
+*.pem
+*.key
+*.p12
+
+# MEDIA & PERSONAL DATA (As requested: Team Images)
+frontend/public/images/
+frontend/public/assets/images/
+
+# ML MODELS (Binary data)
+backend/venv/
+backend/__pycache__/
+backend/*.joblib
+backend/*.pkl
+backend/*.pb
+
+# BUILD ARTIFACTS
+dist/
+build/
+bin/
+obj/
